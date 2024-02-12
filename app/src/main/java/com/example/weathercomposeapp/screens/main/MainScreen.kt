@@ -40,8 +40,8 @@ import com.example.weathercomposeapp.repository.sharedpreference.PreferencesMana
 import com.example.weathercomposeapp.utils.Constants
 import com.example.weathercomposeapp.utils.Constants.Companion.DEFAULT_CITY
 import com.example.weathercomposeapp.utils.Constants.Companion.LOADING_TEXT
+import com.example.weathercomposeapp.utils.FormatUtils.formatDate
 import com.example.weathercomposeapp.utils.Utils.Companion.buildImageUrl
-import com.example.weathercomposeapp.utils.formatDate
 import com.example.weathercomposeapp.widgets.WeatherAppBar
 import com.google.accompanist.permissions.ExperimentalPermissionsApi
 import com.google.accompanist.permissions.rememberMultiplePermissionsState
@@ -131,7 +131,6 @@ fun LocationScreen(
                 elevation = 5.dp
             ) {
                 Log.d("TAG", "MainScaffold: Button Clicked")
-
             }
         }
     ) {

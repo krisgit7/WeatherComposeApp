@@ -50,12 +50,6 @@ fun WeatherAppBar(
                         contentDescription = "search icon"
                     )
                 }
-                IconButton(onClick = { /*TODO*/ }) {
-                    Icon(
-                        imageVector = Icons.Rounded.MoreVert,
-                        contentDescription = "More Icon"
-                    )
-                }
             } else {
                 Box {}
             }
